@@ -83,3 +83,11 @@ As a developer, I can add some styling to the Home page.
 As a developer, I can add some styling to the NotFound page.
 As a developer, I can add React Router to my application.
 As a developer, I can add routes to be able to navigate manually to all pages.
+
+------------------------------------------------------------------------
+# Testing
+
+- As a developer, I have test coverage on my Header Component
+    - As a developer, I have test coverage on my Footer Component
+    - As a developer, I have test coverage on my Home Component
+    - As a developer, I have test coverage on my NotFound Component
