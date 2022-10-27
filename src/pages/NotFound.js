@@ -5,7 +5,7 @@ const NotFound = () => {
 
     return(
         <>
-        <img src={notGood} />
+        <img src={notGood} alt="404 error"/>
         </>
     )
 }
