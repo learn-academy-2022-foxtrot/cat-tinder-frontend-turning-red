@@ -10,6 +10,7 @@ nav {
 
 * {
   font-family: 'Knewave', cursive;
+  
 }
 
 /* Header and Nav Bar */
@@ -30,5 +31,83 @@ nav {
 
 .footer {
   background-color: #ffb1b2;
+  text-align: center;
+  align-items: center;
+  padding: 25px;
+}
 
+
+/* HOME PAGE SECTION */
+
+.home {
+  text-align: center;
+  flex-direction: column ;
+  align-items: center;
+  display: flex;
+  padding-top: 91px;
+  font-size: 4rem;
+  margin-bottom: 0;
+  line-height: 25%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/Users/learnacademy/cat-tinder-frontend/public/smallerbackground.webp");
+  background-size: cover;
+
+}
+
+.redbox {
+  background-color: #f94144;
+  color: #ffffff;
+  border-radius: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.buttonhome {
+  background-color: #ffb1b2;
+  color: #ffffff;
+  border-radius: 3rem;
+  padding: 3rem 2rem 3rem 2rem;
+  box-shadow: 10px 5px 5px grey;
+  border: 0rem;
+  margin-top: 2rem;
+}
+
+.break {
+  height: 0.5rem;
+}
+
+/* REVIEWS SECTION */
+
+.reviews {
+  text-align: center;
+  flex-direction: row ;
+  align-items: center;
+  display: flex;
+  padding-top: 91px;
+  font-size: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 350px;
+}
+
+.quote {
+  flex-direction: row !important;
+  border-style: dashed solid;
+  max-width: 450px;
+  background-color: white;
+}
+
+.titlebox {
+  background-color: #f94144;
+  color: #ffffff;
+  border-radius: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  text-align: center;
+  font-size: 3rem;
 }
