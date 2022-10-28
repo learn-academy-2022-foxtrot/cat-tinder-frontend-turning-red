@@ -6,15 +6,15 @@ const Header = () => {
 
     return(
         <div>
-            <nav class="header">
+            <nav className="header">
             <img id = "item" src={logo} alt="logo" height="200px" />
 
-            <ul class="nav justify-content-center" id = "item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
-                <a class="nav-link" href="/catedit">Cat Edit</a>
-                <a class="nav-link" href="/catindex">Cat Index</a>
-                <a class="nav-link" href="/catnew" >Cat New</a>
-                <a class="nav-link" href="/catshow" >Cat Show</a>
+            <ul className="nav justify-content-center" id = "item">
+                <a className="nav-link active" aria-current="page" href="/">Home</a>
+                <a className="nav-link" href="/catedit">Cat Edit</a>
+                <a className="nav-link" href="/catindex">Cat Index</a>
+                <a className="nav-link" href="/catnew" >Cat New</a>
+                <a className="nav-link" href="/catshow" >Cat Show</a>
             </ul>
             <img id = "item" src={catsImage} alt="cats" height="200px" />
 
