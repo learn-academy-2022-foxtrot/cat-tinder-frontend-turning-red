@@ -13,10 +13,11 @@ const CatIndex = ({cats}) => {
                             <Card   className="text-dark" style={{ width: '18 rem' }}>
                                 <img src={cat.image} alt="image of eligible feline"/>
                                 <CardBody>
+                                    {/* LINK DOESNT WORK */}
                                     <NavLink to={`/catshow/${cat.id}`}>
-                                        {cat.name} <br></br>
-                                        {cat.age}
+                                        {cat.name}
                                     </NavLink>
+                                    {cat.age}
                                 </CardBody>
                             </Card>
                         </div>
