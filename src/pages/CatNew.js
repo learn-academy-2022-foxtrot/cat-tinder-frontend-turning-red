@@ -1,5 +1,4 @@
 import React from "react"
-import { Navigate } from "react-router-dom"
 import { Form, FormGroup, Input, Button, Label } from "reactstrap"
 import { useNavigate } from "react-router-dom"
 import { useState } from "react"

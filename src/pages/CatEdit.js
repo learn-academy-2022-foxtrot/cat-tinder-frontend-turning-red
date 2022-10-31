@@ -1,10 +1,11 @@
-import {React, useState} from "react"
+import { useState } from "react"
 import { useParams, useNavigate } from "react-router-dom"
 import { Form, FormGroup, Input, Button, Label } from "reactstrap"
+import React from "react"
 
 
 
-const catEdit = ({cats, updateCat}) => {
+const CatEdit = ({cats, updateCat}) => {
     const {id} = useParams()
     let currentCat = cats?.find((cat) => cat.id === +id) 
     
