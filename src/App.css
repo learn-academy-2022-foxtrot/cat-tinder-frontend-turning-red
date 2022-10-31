@@ -5,7 +5,7 @@ nav {
 
 .nav-link{
   font-family: 'Knewave', cursive;
-  color: white !important;
+  color: white ;
 }
 
 * {
@@ -50,7 +50,7 @@ nav {
   line-height: 25%;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/Users/learnacademy/cat-tinder-frontend/public/smallerbackground.webp");
+  background-image: url("../public/smallerbackground.webp");
   background-size: cover;
 
 }
@@ -110,4 +110,37 @@ nav {
   padding-bottom: 2.5rem;
   text-align: center;
   font-size: 3rem;
+}
+
+
+/* Index Page */ 
+
+.blushercards {
+  
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: black ; 
+}
+
+.redboxshow {
+  background-color: #f94144;
+  color: #ffffff;
+  border-radius: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 50%; 
+  margin-left:25%;
+  
+}
+
+.eachcard {
+  
 }
