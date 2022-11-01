@@ -1,6 +1,7 @@
 import React from "react"
 import { useParams } from "react-router-dom"
-import {Card, CardBody, CardTitle, CardSubtitle} from "reactstrap"
+import {Card, CardBody, CardTitle, CardSubtitle, Button} from "reactstrap"
+import { NavLink } from "react-router-dom"
 
 const CatShow = ({cats}) => {
     console.log("cat arrays:", cats)
@@ -25,7 +26,12 @@ const CatShow = ({cats}) => {
                     </CardBody>
                 </Card>
                 }
-            </> 
+                <Button> 
+                    <NavLink to={`/catedit/${showCat.id}`}>
+                        Update this cat 
+                    </NavLink>
+                </Button>
+        </> 
     )
 }
 

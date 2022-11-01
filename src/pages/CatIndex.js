@@ -1,5 +1,6 @@
 import React from "react"
-import {Card, CardBody, CardTitle, Button, NavLink } from "reactstrap"
+import {Card, CardBody, CardTitle, Button } from "reactstrap"
+import { NavLink } from "react-router-dom"
 
 const CatIndex = ({cats}) => {
    console.log(cats)
@@ -14,9 +15,9 @@ const CatIndex = ({cats}) => {
                                 <img src={cat.image} alt="image of eligible feline"/>
                                 <CardBody>
                                     <NavLink to={`/catshow/${cat.id}`}>
-                                        {cat.name} <br></br>
-                                        {cat.age}
+                                        {cat.name}
                                     </NavLink>
+                                    {cat.age}
                                 </CardBody>
                             </Card>
                         </div>
